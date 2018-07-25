@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="index.css" rel="stylesheet">
+        <title>Таблица на печать</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>выбери и рапечатай</h1>
+            <table>
+                <tr>
+                    <td class="checkboxes">
+                        <input type="checkbox" id="first">
+                        <label for="first">first product</label>
+                        <input type="checkbox" id="second">
+                        <label for="second">second product</label>
+                    </td>
+                    <td class="active">first product</td>
+                    <td class="active">second product</td>
+                </tr>
+                
+                <tr>
+                    <td>first characteristic</td>
+                    <td class="active">10</td>
+                    <td class="active">3</td>
+                </tr>
+                
+                <tr>
+                    <td>second characteristic</td>
+                    <td class="active">100</td>
+                    <td class="active">30</td>
+                </tr>
+            </table>
+            <button class="standart-btn">Распечатать</button>
+        </div>
+    </body>
+</html>
